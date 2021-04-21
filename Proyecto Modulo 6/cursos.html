@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<title>Programa Conmigo</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<!--Inicia Barra de Navegacion-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		<a href="index.html" class="navbar-brand">Programa Conmigo</a>
+	</div>
+ <div class="collapse navbar-collapse" id="bs-nav-demo">
+	<ul class="nav navbar-nav">
+		<li><a href="about.html">Acerca de Nosotros</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+		<li><a href="cursos.html">Cursos</a></li>
+		<form class="navbar-form">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Buscar">
+			</div>
+		<button type="submit" class="btn btn-danger">Submit</button>
+		</form>
+		<!--Contenido para el lado izquierdo de la barra-->
+	</ul>
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="#" class="btn bnt-danger" data-toggle="modal" data-target="#basicModal">Inicia Sesion</a></li>
+		<li><a href="#">Registrate</a></li>
+		<li><a href="foro.html">Foros</a></li>
+	</ul>
+	</div>
+	</div>
+</nav>
+
+
+<div class="row"></div>
+	
+	<div class="col-lg-4 col-sm-6">
+
+		<div class="thumbnail">
+			<h2>Conceptos Basicos</h2>
+			<img src="grow.jpg" class="content">
+			<p>Aprende los conceptos mas sencillos y basicos sobre la programacion para facilitar el aprendizaje de los conceptos mas avanzados</p>
+			<div class="wrapper">
+				<button type="button" class="btn btn-success desorden"> Entrar</button></div>
+		</div>
+	</div>
+
+
+	<div class="col-lg-4 col-sm-6">
+		<div class="thumbnail">
+			<h2>Lenguaje C</h2>
+			<img src="c.jpg" class="content">
+			<p>Aprende uno de los lenguajes mas utilizados al momento de enseñar programacion en diversas Universidades reconocidas</p>
+			<div class="wrapper"><button type="button" class="btn btn-success desorden"> Entrar</button></div>
+
+		</div>	
+	</div>
+	
+	<div class="col-lg-4 col-sm-6">
+		<div class="thumbnail">
+			<h2>Aprende HTML</h2>
+			<img src="html5.jpg" class="content">
+			<p>Aprende a realizar una pagina de internet desde cero con este curso basico de desarrollo web, cubre desde la interfaz hasta la codificacion</p>
+			<div class="wrapper"><button type="button" class="btn btn-success desorden"> Entrar</button></div>
+
+		</div>
+	</div>
+		
+	<div ></div>
+
+
+
+
+
+
+
+<div id="foot">
+    <section style="height:80px;"></section>
+	<div class="row" style="text-align:center;">
+	</div>
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+        <div class="row">
+        	<div class="col-md-3 footer-brand animated fadeInLeft">
+            	<h2>Programa Conmigo</h2>
+                <p>Una introduccion sencilla a la programacion explicada por estudiantes para estudiantes.</p>
+                <p>© 2017 Universidad Autonoma de Nuevo Leon, Todos los derechos Reservados</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<h4>Mapa del Sitio —</h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#">Inicia Sesion</a></li>
+                        <li><a href="#">Registrate</a></li>
+                        <li><a href="#">Foros</a></li>
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Acerca de Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Cursos</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>¡Siguenos!</h4>
+            	<ul>
+                	<li><a href="#">Facebook</a></li>
+                	<li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4>Suscribete a Nosotros</h4>
+                <p>Y recibiras una notificacion cada vez que subamos mas contenido a los cursos</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Introduce tu correo">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div><!-- /input-group -->
+                 </p>
+            </div>
+        </div>
+    </footer>
+   
+
+</div>
+
+
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="myModalLabel" style="float:left;">Inicia Sesion </h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="float:right;">
+        <span aria-hidden="true">×</span>          
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Correo Electronico">
+            <br><input type="password" class="form-control" placeholder="Contraseña">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal" style="float: left;">Cerrar</button>
+        <button type="button" class="btn btn-danger" style="float: right;">Iniciar Sesion</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script> <!--Tiene que venir antes del bootstrap javascript porque este depende de jquery-->
+<script type="text/javascript" src="bootstrap.js"></script>
+</body>
+</html>
